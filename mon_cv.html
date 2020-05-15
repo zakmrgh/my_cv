@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <!-- Ajout des metadonnées pour simplifier l'indexation de la page-->
+        <meta charset="utf-8">
+        <meta name="description" content="MARRAGH Zakaria-Reda CV">
+        <meta name="keywords" content="MARRAGH, ZAKARIA-REDA, IONIS, BI, QlikSense, QlikView, SQL, Informatique">
+        <meta name="author" content="MARRAGH Zakaria-Reda">
+        <title id ="titre-onglet">MARRAGH Zakaria-Reda | Etudiant M1 | zakariareda.marragh@gmail.com</title>
+        <!-- Ajout des références externes, CSS, JS, ico-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="style/style.css">
+        <link rel="shortcut icon" href="img/logo_ionis.ico" />
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="javascript/script.js"></script>
+    </head>
+
+    <body>
+        <!-- Intégration de l'animation du curseur-->
+        <div class="path">
+            <div class="cursor cursor1"></div>
+            <div class="cursor cursor2"></div>
+            <div class="cursor cursor3"></div>
+            <div class="cursor cursor4"></div>
+            <div class="cursor cursor5"></div>
+        </div>
+        <!-- Déclaration du conteneur principal-->
+        <div id="page">
+            <!-- Ajout des informations personnelles et la photo-->
+            <div class="nom-photo">
+                <img id="photo-cv" class="images" src="img/photo.png" onclick="modifPic()">
+                <div class="info-contact">
+                    <h1 class="nom">Marragh Zakaria-Reda</h1>
+                    <br>
+                    <h3 class="occupation">Etudiant M1 - Informatique & Management</h3>
+                    <p class="coordonnées">Numéro: 0662946669 &nbsp; - &nbsp; Email: zakaria.marragh@ionis-stm.com</p>
+                </div>
+            </div>
+            <!-- Ajout du parcours des formations-->
+            <div id="formations">
+                <h3>Formations</h3>
+                <table>
+                    <tr class="année">
+                        <td rowspan="2">2017 - 2018</td>
+                    </tr>
+                    <tr class="université">
+                        <td><b>Université Jean Monnet - Licence Economie et Gestion :</b> <br>VBA Excel | Statistiques appliquées | Mathématiques appliquées | Théorie des jeux</td>
+                    </tr>
+                    
+                    <tr class="année">
+                        <td rowspan="2">2018 - 2019</td>
+                    </tr>
+                    <tr class="université">
+                        <td><b>Ionis-STM - Bachelor Informatique et Management :</b> <br>Base de données | Programmation du microcontrôleur | Linux | Python | Réseau Informatique</td>
+                    </tr>
+                
+                    <tr class="année">
+                        <td rowspan="2">2019 - 2020</td>
+                    </tr>
+                    <tr class="université">
+                        <td><b>Ionis-STM - Master Informatique et Management :</b> <br> Java | C++ | Github | Système d'information | Gestion de projet | Ingénierie logicielle</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Ajout des expériences professionnelles-->
+            <div id="expériences">
+                <h3>Expériences professionnelles</h3>
+                <table>
+                    <tr class="poste">
+                        <td>02/2018-04/2018</td>
+                        <td><b>L.E.E.G.I - Développeur VBA :</b><br>• Prise de contact avec le monde de l'entreprise<br>• Migration des données au sein du nouveau S.I interne</td>
+                    </tr>
+                    <tr class="poste">
+                        <td>04/2019-07/2019</td>
+                        <td><b>Stere Informatique - Consultant BI :</b><br>• Faire évoluer des outils de reporting sur la technologie QlikView<br>• Construction du datamart & Intégration des composants techniques<br> • Rédaction des spécifications techniques</td>
+                    </tr>
+        
+                </table>
+            </div>
+            <!-- Ajout des compétences informatiques-->
+            <div id="compétences">
+                <h3>Compétences informatiques</h3>
+                <table>
+                    <tr>
+                        <td>Bureautique :</td>
+                        <td><b>MS Office, Suite Adobe CS6</b></td>
+                    </tr>
+                    <tr>
+                        <td>Langages de programmation :</td>
+                        <td><b>Python, Java, C++, VBA</b></td>
+                    </tr>
+                    <tr>
+                        <td>Web :</td>
+                        <td><b>HTML, CSS, Bootstrap</b></td>
+                    </tr>
+                    <tr>
+                        <td>Outils :</td>
+                        <td><b>Versionning (Github), Virtualisation (VM VirtualBox & Vagrant)</b></td>
+                    </tr>
+                    <tr>
+                        <td>BI :</td>
+                        <td><b>QlikView, QlikSense</b></td>
+                    </tr>
+                    <tr>
+                        <td>Base de données :</td>
+                        <td><b>MySQL, PostgreSQL</b></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Ajout des langues-->
+            <div id="langues">
+                <h3>Langues</h3>
+                <table>
+                    <tr>
+                        <td>Français :</td>
+                        <td><b>Bilingue</b></td>
+                    </tr>
+                    <tr>
+                        <td>Anglais :</td>
+                        <td><b>Courant</b></td>
+                    </tr>
+                    <tr>
+                        <td>Arabe :</td>
+                        <td><b>Bilingue</b></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

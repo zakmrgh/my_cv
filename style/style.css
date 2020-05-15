@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cursor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255,255,255,.1);
+    border-radius: 50%;
+    pointer-events: none;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.cursor1 {
+    transition: 0.05s;
+}
+
+.cursor2 {
+    transition: 0.1s;
+}
+
+.cursor3 {
+    transition: 0.15s;
+}
+
+.cursor4 {
+    transition: 0.2s;
+}
+
+.cursor5 {
+    transition: 0.25s;
+}
+
+#page {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: rgb(245,245,245);
+    margin: 50px auto;
+    padding: 30px;
+    color: rgb(39,170,225);
+}
+
+#photo-cv {
+    width: 15%;
+    min-width: 130px;
+    float: left;
+    margin-right: 20px;
+}
+
+.info-contact {
+    width: 70.9%;
+    display: inline-block;
+}
+
+.nom {
+    margin-bottom: -5px;
+}
+
+
+.coordonnées {
+    background: rgb(39,170,225);
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#formations h3 {
+    border: 1px solid rgb(211,211,211);
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#formations table td {
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+#formations table tr.année td:first-child {
+    width: 145px;
+    color: rgb(128,128,128);
+    padding-bottom: 25px;
+}
+
+#formations table tr.université td:first-child {
+    padding-bottom: 25px;
+}
+
+#expériences h3 {
+    border: 1px solid rgb(211,211,211);
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#expériences table td {
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+#expériences table tr.poste td:first-child {
+    width: 150px;
+    color: rgb(128,128,128);
+    padding-bottom: 25px;
+}
+
+#expériences table tr.poste td {
+    padding-bottom: 25px;
+}
+
+#compétences h3 {
+    border: 1px solid rgb(211,211,211);
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#compétences table td {
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+#compétences table tr td:first-child {
+    width: 145px;
+}
+
+#langues h3 {
+    border: 1px solid rgb(211,211,211);
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#langues table {
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0,0,0);
+}
+
+
+#langues table tr td:first-child {
+    width: 155px;
+}
